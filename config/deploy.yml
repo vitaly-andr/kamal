@@ -105,6 +105,7 @@ accessories:
       - db/production.sql:/docker-entrypoint-initdb.d/setup.sql
     directories:
       - data:/var/lib/postgresql/data
+
 # accessories:
 
 #   db:
