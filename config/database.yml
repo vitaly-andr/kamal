@@ -83,3 +83,5 @@ production:
   database: kamal_production
   username: kamal
   password: <%= ENV["KAMAL_DATABASE_PASSWORD"] %>
+  host: <%= ENV['DB_HOST'] %>
+
