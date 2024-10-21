@@ -85,7 +85,7 @@ accessories:
   db:
     image: postgres:17
     host: 188.245.156.180
-    roles: ['web']
+#    roles: ['web']
     port: "127.0.0.1:5432:5432"
     env:
       clear:
