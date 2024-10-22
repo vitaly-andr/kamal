@@ -37,7 +37,7 @@ builder:
 env:
  clear:
    DB_HOST: kamal-db
-   SOLID_QUEUE_IN_PUMA: true
+#   SOLID_QUEUE_IN_PUMA: true
    RAILS_LOG_LEVEL: debug
 
  secret:
@@ -101,8 +101,8 @@ accessories:
         POSTGRES_USER: postgres
         POSTGRES_DB: kamal_production
         POSTGRES_HOST_AUTH_METHOD: trust
-      secret:
-        - KAMAL_DATABASE_PASSWORD
+#      secret:
+#        - KAMAL_DATABASE_PASSWORD
     files:
       - db/production.sql:/docker-entrypoint-initdb.d/setup.sql
     directories:
